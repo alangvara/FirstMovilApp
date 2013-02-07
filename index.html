@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Acelerómetro</title>
+    <!--<script src="cordova-2.3.0.js"></script>-->
+    <script>
+      var acelerometroId;
+      
+      document.addEventListener("deviceready",function(){
+        var acelerometroId = navigator.accelorometter.watchAcceleration(function(acceleration){
+          alert('test');
+        })
+      }, false);
+    </script>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  </head>
+  <body>
+    Hello World Phone Gap
+    
+    <button onclick="alert('ok!')">Esto esta curiosod!</button>
+    
+  </body>
+</html>
