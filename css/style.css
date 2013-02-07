@@ -1,0 +1,45 @@
+/*body{
+  background: #ccc;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+*/
+
+.ui-header .ui-title, .ui-footer .ui-title {
+  margin: 0.6em 5% 0.8em;
+}
+
+h1{
+  text-align: center;
+}
+
+h1 img{
+  width: 95%;
+  max-width: 300px;
+}
+
+/*dl{
+  margin:0;
+  padding:0;
+  overflow: hidden;
+}
+
+dt{
+  float:left;
+  width:30%;
+  padding: 0;
+  margin:0;
+  text-align: right;
+}
+
+dd{
+  float:left;
+  width:70%;
+  padding: 0;
+  margin:0;
+}
+
+dd input{
+  width: 90%;
+}*/
